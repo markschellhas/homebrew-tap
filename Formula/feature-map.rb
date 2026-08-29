@@ -8,6 +8,7 @@ class FeatureMap < Formula
   license "MIT"
   head "https://github.com/markschellhas/feature-map.git", branch: "master"
 
+  depends_on "libyaml"
   depends_on "python@3.12"
 
   resource "pyyaml" do
