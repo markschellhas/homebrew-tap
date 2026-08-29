@@ -1,16 +1,28 @@
 # Markschellhas Tap
 
+## Formulae
+
+- [`feature-map`](https://github.com/markschellhas/feature-map) — cross-app architecture research CLI. PyPI name is `feature-map-cli`.
+
 ## How do I install these formulae?
 
-`brew install markschellhas/tap/<formula>`
+```bash
+brew install markschellhas/tap/feature-map
+```
 
-Or `brew tap markschellhas/tap` and then `brew install <formula>`.
+Or `brew tap markschellhas/tap` and then `brew install feature-map`.
+
+Installing the fully qualified name trusts only that formula. Whole-tap trust:
+
+```bash
+brew trust markschellhas/tap
+```
 
 Or, in a `brew bundle` `Brewfile`:
 
 ```ruby
 tap "markschellhas/tap"
-brew "<formula>"
+brew "markschellhas/tap/feature-map"
 ```
 
 ## Documentation
